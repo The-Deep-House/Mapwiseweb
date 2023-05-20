@@ -1,0 +1,473 @@
+.gradient-custom-2 {
+  background:black;
+            }
+div.card{
+  border: none;
+}
+body {
+background-color: #fbfbfb;
+}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Playfair Display";
+letter-spacing: 5px;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+ 
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+  margin-top: 60px;
+  padding: 20px 30px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 1199px) {
+  #main {
+    padding: 20px;
+  }
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  color: #444444;
+}
+
+a {
+  color: #9d080f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #391010;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.logo {
+  line-height: 2;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 280px;
+  }
+}
+
+.logo img {
+  max-height: 30px;
+  margin-left: 30px;
+  margin-right: 6px;
+  
+}
+.logo span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #9d080f;
+  font-family: "Nunito", sans-serif;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  }
+  nav ul li { 
+    margin-right: 15px;
+  }
+  
+/*--------------------------------------------------------------
+# Profie Page
+--------------------------------------------------------------*/
+
+.profile .profile-overview .row {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.profile .profile-overview .card-title {
+  color: #9d080f;
+}
+
+.profile .profile-overview .label {
+  font-weight: 600;
+  color: black;
+}
+
+.profile .profile-edit label {
+  font-weight: 700;
+  color: black;
+}
+
+.profile .profile-edit img {
+  max-width: 160px;
+}
+
+/*--------------------------------------------------------------
+# MENU
+--------------------------------------------------------------*/
+
+.ms-card .ms-card-img img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img, svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+body {
+  font-size: 14px;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.ms-content-wrapper {
+    padding: 10px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.ms-panel-header {
+  position: relative;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto",sans-serif;
+}
+body {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+} 
+.ms-panel.ms-panel-fh {
+  height: calc(100% - 2rem);
+}
+.ms-panel {
+  background: #fff;
+  box-shadow: 0 1px 6px 1px rgba(69,65,78,.1);
+  margin-bottom: 30px;
+}
+@media (min-width: 768px){
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; 
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px){
+  .col-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+@media (min-width: 768px){
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div {
+    display: block;
+}
+.ms-panel.ms-panel-fh {
+  height: calc(100% - 2rem);
+}
+.card{
+  
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.ms-panel {
+  background: #fff;
+  box-shadow: 0 1px 6px 1px rgba(69,65,78,.1);
+  margin-bottom: 30px;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.ms-panel-header {
+  position: relative;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.ms-panel-body, .ms-panel-footer {
+  position: relative;
+  padding: 1.5rem;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+@media (min-width: 768px){
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px){
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+label {
+  cursor: default;
+}
+.input-group {
+  margin-bottom: 1rem;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.custom-file, .custom-file-input {
+  position: relative;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+.custom-file {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.custom-file-input {
+  z-index: 2;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.custom-file, .custom-file-input {
+  position: relative;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+input[type="file" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  align-items: baseline;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: pre;
+  text-align: start !important;
+  padding: initial;
+  border: initial;
+  overflow: hidden !important;
+}
+.custom-file-label {
+  color: #778087;
+}
+.custom-control-label:before, .custom-file-label, .custom-select {
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.custom-file-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  overflow: hidden;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+label {
+  cursor: default;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+.ms-content-wrapper {
+  padding: 30px;
+}
+content {
+  padding-left: 255px;
+}
+.ms-has-quickbar .body-content {
+  padding-right: 100px;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.scroll {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
